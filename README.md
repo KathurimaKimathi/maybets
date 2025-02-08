@@ -91,6 +91,14 @@ curl --location '<BASEURL>:<PORT>/api/v1/analytics/top_users'
 curl --location '<BASEURL>:<PORT>/api/v1/analytics/anomalies'
 ```
 
+### Tracing (WIP)
+Run the docker compose
+```sh
+docker compose up
+```
+
+Then navigate to http://localhost:16686 to view your request traces across various points in the application.
+
 ## Contribution
 Feel free to submit issues, feature requests, or pull requests to improve the project.
 
