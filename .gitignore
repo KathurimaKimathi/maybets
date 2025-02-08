@@ -1,0 +1,7 @@
+**debug**
+env.sh
+bets.db
+dump.rdb
+bets.json
+.vscode
+.DS_Store

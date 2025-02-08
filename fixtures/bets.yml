@@ -1,0 +1,179 @@
+- id: {{.test_bet1user1_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id}}
+  bet_id: {{.test_bet1user1_id}}
+
+- id: {{.test_bet2user1_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 69.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id}}
+  bet_id: {{.test_bet2user1_id}}
+
+- id: {{.test_bet3user1_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id}}
+  bet_id: {{.test_bet3user1_id}}
+
+- id: {{.test_bet4user1_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id}}
+  bet_id: {{.test_bet4user1_id}}
+
+- id: {{.test_bet1user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet1user2_id}}
+
+- id: {{.test_bet2user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet2user2_id}}
+
+- id: {{.test_bet3user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet3user2_id}}
+
+- id: {{.test_bet4user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet4user2_id}}
+
+- id: {{.test_bet5user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet5user2_id}}
+
+- id: {{.test_bet6user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet6user2_id}}
+
+- id: {{.test_bet7user2_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id2}}
+  bet_id: {{.test_bet7user2_id}}
+
+- id: {{.test_bet1user3_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id3}}
+  bet_id: {{.test_bet1user3_id}}
+
+- id: {{.test_bet2user3_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id3}}
+  bet_id: {{.test_bet2user3_id}}
+
+- id: {{.test_bet1user4_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id4}}
+  bet_id: {{.test_bet1user4_id}}
+
+- id: {{.test_bet2user4_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id4}}
+  bet_id: {{.test_bet2user4_id}}
+
+- id: {{.test_bet1user5_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: win
+  user_id: {{.test_user_id5}}
+  bet_id: {{.test_bet1user5_id}}
+
+- id: {{.test_bet2user5_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id5}}
+  bet_id: {{.test_bet2user5_id}}
+
+- id: {{.test_bet1user6_id}}
+  created: 2024-11-22 21:16:29.23639+03
+  updated: 2024-11-22 21:16:29.23639+03
+  timestamp: 2024-11-22 21:16:29.23639+03
+  amount: 100.00
+  odds: 5.65
+  outcome: lose
+  user_id: {{.test_user_id6}}
+  bet_id: {{.test_bet1user6_id}}
