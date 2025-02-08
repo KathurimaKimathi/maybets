@@ -7,7 +7,6 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/KathurimaKimathi/maybets/pkg/maybets/application/helpers"
 	"github.com/KathurimaKimathi/maybets/pkg/maybets/infrastructure/database/postgres"
 	"github.com/KathurimaKimathi/maybets/pkg/maybets/infrastructure/database/postgres/gorm"
 	"github.com/go-testfixtures/testfixtures/v3"
@@ -47,12 +46,6 @@ var (
 )
 
 func TestMain(m *testing.M) {
-	isLocalDB := helpers.CheckIfCurrentDBIsLocal()
-	if !isLocalDB {
-		fmt.Println("Cannot run tests. The current database is not a local database.")
-		os.Exit(1)
-	}
-
 	log.Println("setting up test database")
 
 	var err error

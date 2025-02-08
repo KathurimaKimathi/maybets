@@ -40,15 +40,16 @@ jobs:
           - 16686:16686
           - 6831:6831/udp
           - 4318:4318
+      redis:
+        image: redis:latest
+        ports:
+          - 6379:6379
     steps:
       - uses: actions/checkout@v4
       - name: Install Go
         uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.go-version }}
-      - name: Install Helm
-        run: |
-          curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
       - name: Install Go dependencies
         run: |
           go mod download
@@ -56,6 +57,16 @@ jobs:
           go get github.com/ory/go-acc
           go install github.com/ory/go-acc
           go install github.com/axw/gocov/gocov
+      - name: Wait for Redis to be ready
+        run: |
+          for i in {1..10}; do
+            if nc -z localhost 6379; then
+              echo "Redis is up"
+              break
+            fi
+            echo "Waiting for Redis..."
+            sleep 3
+          done
       - name: Run tests
         run: |
           go-acc -o coverage.txt --ignore generated,cmd  ./... -- -timeout 60m
@@ -85,3 +96,4 @@ jobs:
               echo "Failed"
               exit 1
           fi
+        
